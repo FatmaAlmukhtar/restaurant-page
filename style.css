@@ -21,18 +21,24 @@ body {
     padding-right: 20px;
     background-color: black;
 }
-.links {
+.tabs {
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-family: sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 .logo {
     flex: 1;
     font-family: 'Spicy Rice';
     font-size: 36px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
-.links:not(.logo):hover {
+.tabs:not(.order-button):hover {
     text-decoration: underline 3px chartreuse;
     color: chartreuse;
     text-underline-offset: 8px;
@@ -42,9 +48,6 @@ body {
     padding: 10px 20px;
     border: solid white;
     border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
 }
 .order-button:hover {
     background-color: greenyellow;
