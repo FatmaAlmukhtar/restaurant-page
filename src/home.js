@@ -39,12 +39,19 @@ function createMain() {
 
     return main;
 }
-
-function loadPage() {
-    const content = document.getElementById('content');
-
-    content.appendChild(createHeader());
-    content.appendChild(createMain());
+function updateMain() {
+    const main = document.querySelector('.main');
+    
+    while (main.firstChild) {
+        main.removeChild(main.firstChild);
+    }
+    
+    const intro = document.createElement('div');
+    intro.setAttribute('style', 'white-space: pre;');
+    intro.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing \r\n elit. Eaque, debitis';
+    intro.classList.add('intro');
+    
+    main.appendChild(intro);
 }
 
-export default loadPage;
+export {createHeader, createMain, updateMain};
