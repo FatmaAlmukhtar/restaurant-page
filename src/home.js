@@ -49,7 +49,7 @@ function createMain() {
     const content2 = document.createElement('p');
     heading2.textContent = 'HOURS & LOCATIONS';
     content2.setAttribute('style', 'white-space: pre;');
-    content2.textContent = '123 Casa Ave, Redwood City, CA \r\n Monday - Wednesday: 11am - 10pm \r\n Thursday - Sunday: 11am - 11pm';
+    content2.textContent = '555 Laurel Ave, San Mateo, CA \r\n Monday - Wednesday: 11am - 10pm \r\n Thursday - Sunday: 11am - 11pm';
     info.classList.add('page-content');
     info.appendChild(heading2);
     info.appendChild(content2);
@@ -85,7 +85,7 @@ function updateMain() {
     const content2 = document.createElement('p');
     heading2.textContent = 'HOURS & LOCATIONS';
     content2.setAttribute('style', 'white-space: pre;');
-    content2.textContent = '123 Casa Ave, Redwood City, CA \r\n Monday - Wednesday: 11am - 10pm \r\n Thursday - Sunday: 11am - 11pm';
+    content2.textContent = '555 Laurel Ave, San Mateo, CA \r\n Monday - Wednesday: 11am - 10pm \r\n Thursday - Sunday: 11am - 11pm';
     info.classList.add('page-content');
     info.appendChild(heading2);
     info.appendChild(content2);
