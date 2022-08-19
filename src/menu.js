@@ -18,4 +18,4 @@ function loadMenu() {
     main.appendChild(pageContent);
 }
 
-export default loadMenu;
+export {loadMenu, menu};

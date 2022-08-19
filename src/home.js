@@ -32,12 +32,15 @@ function createMain() {
 
     const intro = document.createElement('div');
     const heading1 = document.createElement('h3');
+    const subHeading = document.createElement('span');
     const content1 = document.createElement('p');
-    heading1.textContent = 'WHO?';
-    content1.textContent = "HOT FLAVOR has the best food! Tasty and Affordable" +
-     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis iure magni optio aliquid? Asperiores voluptate, tempore laboriosam perspiciatis qui doloribus iure dignissimos porro error nemo illum minus ab maxime!";
+    heading1.textContent = 'ABOUT US?';
+    subHeading.textContent = "HOT FLAVOR has the best food! Tasty and Affordable";
+    content1.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis iure magni optio aliquid? Asperiores voluptate, tempore laboriosam perspiciatis qui doloribus iure dignissimos porro error nemo illum minus ab maxime!";
     intro.classList.add('page-content');
+    content1.classList.add('paragraph');
     intro.appendChild(heading1);
+    intro.appendChild(subHeading);
     intro.appendChild(content1);
 
 
@@ -65,12 +68,15 @@ function updateMain() {
 
     const intro = document.createElement('div');
     const heading1 = document.createElement('h3');
+    const subHeading = document.createElement('span');
     const content1 = document.createElement('p');
-    heading1.textContent = 'WHO?';
-    content1.textContent = "HOT FLAVOR has the best food! Tasty and Affordable" +
-     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis iure magni optio aliquid? Asperiores voluptate, tempore laboriosam perspiciatis qui doloribus iure dignissimos porro error nemo illum minus ab maxime!";
+    heading1.textContent = 'ABOUT US?';
+    subHeading.textContent = "HOT FLAVOR has the best food! Tasty and Affordable";
+    content1.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis iure magni optio aliquid? Asperiores voluptate, tempore laboriosam perspiciatis qui doloribus iure dignissimos porro error nemo illum minus ab maxime!";
     intro.classList.add('page-content');
+    content1.classList.add('paragraph');
     intro.appendChild(heading1);
+    intro.appendChild(subHeading);
     intro.appendChild(content1);
 
 

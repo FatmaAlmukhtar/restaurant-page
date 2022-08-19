@@ -1,6 +1,7 @@
 import {createHeader, createMain, updateMain} from './home';
-import loadMenu from './menu';
+import {loadMenu} from './menu';
 import loadContact from './contact';
+import orderOnline from './order';
 
 const content = document.getElementById('content');
 
@@ -25,6 +26,7 @@ tabs.forEach(tab => {
                 loadContact();
                 break;
             case 'ORDER ONLINE':
+                orderOnline();
                 break;
             default:
         }
